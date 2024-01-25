@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+#burger {
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px
+
+}
+
+header ul{
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+
+}
+
+header a:hover {
+    color: #F17124;
+    transition: all 0.2s;
+}
+
+#accueil{
+    color: #F17124;
+}
+
+header img{
+    width: 300px;
+}
+
+main h1{
+    text-transform: uppercase;
+    color: #F17124;
+    font-size: 53px;
+    font-weight: 900;
+}
+
+#partiehaute{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px;
+    gap: 160px;
+
+}
+#partiehaute p{
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+#partiehaute img{
+    width: 100%;
+}
+
+#partiehaute a {
+    color: #F17124;
+    border: solid 1px #F17124;
+    border-radius: 90%;
+    text-decoration: none;
+    border-radius: 40px;
+    padding-inline: 40px;
+    
+}
+
+#partiehaute a:hover {
+    color: white;
+    border: solid 1px white;
+    border-radius: 90%;
+    text-decoration: none;
+    border-radius: 40px;
+    padding-inline: 40px;
+    background: #F17124;
+    transition: all 0.2s;
+
+}
+
+#logohagile {
+    display: flex;
+    justify-content: center;
+    min-height: 421px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#fondorange {
+    background: #F17124;
+    color: white;
+    padding: 80px;
+    
+    text-align: center;
+}
+#fondorange p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+#les3colonnes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 40px;
+    margin: 100px;
+    justify-content: space-between;
+}
+
+
+#image01 {
+    background-image: url(/img/01.png);
+    background-repeat: no-repeat;
+    
+    
+}
+
+#image02{
+    background-image: url(/img/02.png);
+    background-repeat: no-repeat;
+}
+#image03{
+    background-image: url(/img/03.png);
+    background-repeat: no-repeat;
+}
+#les3colonnes h2 {
+    color: #F17124;
+    text-transform: uppercase;
+}
+
+#fonddéroulant2{
+    background-image: url(/img/2020-09-09.jpg);
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#fonddéroulant2 article {
+    width: 45%;
+}
+#fonddéroulant2 p {
+    padding: 30px;
+    font-weight: 400;
+}
+
+#fonddéroulant2 a {
+
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 40px;
+    padding-inline: 40px;
+    margin: 80px;
+    
+}
+
+#colonneformulaire {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+#colonneformulaire article {
+    
+    margin: 40px;
+    background: #343A40;
+    color: white;
+    padding: 20px;
+    
+}
+
+#colonneformulaire h2 {
+
+    color: #F17124;
+    text-decoration: none;
+}
+#Formulaire a{
+
+    color: #F17124;
+    text-decoration: none;  
+    border: solid 1px #F17124;
+    border-radius: 90%;
+    text-decoration: none;
+    border-radius: 40px;
+    padding-inline: 40px;
+    
+}
+#Formulaire a:hover {
+    color: white;
+    border: solid 1px white;
+    border-radius: 90%;
+    text-decoration: none;
+    border-radius: 40px;
+    padding-inline: 40px;
+    background: #F17124;
+    transition: all 0.2s;
+}
+#colonneformulaire a{
+    color: #F17124;
+    text-decoration: none;  
+    
+    
+}
+form label {
+    display: inline-block;
+    align-items: center;
+    margin: 0;
+  }
+form input {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px;
+    color: #343A40;
+    background-color: transparent;
+  }    
+form textarea {
+    background-color: transparent;
+    width: 100%;
+    display: inline-block;
+    margin:10px 0;
+    border: solid 1px white;
+    border-radius: 40px;
+    padding: 5px;
+    color: #343A40;
+  }
+#protect {
+    display: flex;
+}
+
+#rgpd input{
+    width:auto;
+    display: inline;
+}
+#rgpd label{
+    display: inline;
+}
+
+  footer {
+    color: #F17124;
+    background-color: rgb(220, 215, 215) ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    padding: 20px;
+    
+  }
+  footer {
+    font-size: 12px;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: #F17124;
+  }
+
+  @media screen and (max-width: 1024px) {
+    header nav {
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+    #partiehaute {
+        display: block;
+
+    }
+    #partiehaute>article{
+        margin: 30px;
+    }
+    #logohagile img{
+        width: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    #fonddéroulant2 a{
+        margin: 0;
+       
+
+    }
+    }
+
+
+        header{
+            padding: 0;
+        }
+        header img{
+            width: 250px;
+        }
+        #partiehaute {
+            margin:0
+        }
+        #logohagile {
+            display: contents;
+        }
+        #fondorange{
+            padding: 20px;
+        }
+        #fondorange p{
+            font-size: 20px;
+        }
+        #les3colonnes {
+            grid-template-columns: repeat(1,1fr);
+            gap: none;  
+            padding: 0;
+            margin: 60px;
+        }
+        #fonddéroulant2 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-attachment: scroll;
+        }
+
+        #fonddéroulant2 article {
+            width: fit-content;
+        }
+        
+        #fonddéroulant2 p {
+            width: fit-content;
+            font-size: 20px;
+        }
+        #colonneformulaire {
+            display: block;
+        }
+
+        #colonneformulaire article {
+            margin: 10px;
+        }
+
+        input {
+            margin: 0;
+            padding: 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 17px;
+        }
+        footer a{
+            margin: 0;
+            font-size: 17px;
+        }
+      
